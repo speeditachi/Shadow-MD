@@ -46,7 +46,17 @@ Powered by Developer Community
 
 
 ## 📲 Session 
+## 🌀 SHADOW-MD SESSION ID
 
+Pou w ka jwenn Session ID ou rapid ak fasil san eskanè QR kòd, klike sou lyen Render ofisyèl bot la anba a:
+
+🔗 **[Klike la a pou w fè Session ID ou](https://shadow-md-hopy.onrender.com)**
+
+### Kijan pou w fè l:
+1. Klike sou lyen ki anwo a.
+2. Antre nimewo WhatsApp ou (ak kòd peyi a, pa egzanp: `509xxxxxxx`).
+3. Klike sou **Validate** pou w jwenn kòd asosyasyon an.
+4. Mete kòd la nan notifikasyon WhatsApp ou a, epi bot la ap voye **Session ID** ou dirèkteman nan mesaj prive (PV) pou ou!
 ## ⚙️ Installation
 
 ```bash

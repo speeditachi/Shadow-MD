@@ -14,18 +14,38 @@ Shadow MD se yon WhatsApp Multi-Device bot ki fèt pou automatisation, group man
 - 💀 Multi-device support (MD)
 
 ---
+---
 
+## 🔐 IMPORTANT
 
-## 📲 Session Login
-
-Shadow MD itilize **Session ID** pou konekte:
-
-1. Run bot la
-2. Li ap bay Session ID / QR code
-3. Mete li nan config
-4. Bot la konekte otomatikman
+- Do NOT share your session ID with anyone
+- If session leaks, reset it immediately
+- Keep your `.env` file private
 
 ---
+
+## 👑 OWNER CONTACT
+
+If you need help or support:
+
+📞 WhatsApp: +xxx-xxx-xxx  
+📩 Telegram: @yourusername  
+📧 Email: your@email.com  
+
+---
+
+## ⚠️ WARNING
+
+This bot is for educational and personal use only.
+Misuse is not allowed.
+
+---
+
+## 💀 SHADOW MD TEAM
+Powered by Developer Community
+
+
+## 📲 Session 
 
 ## ⚙️ Installation
 

@@ -28,9 +28,9 @@ Shadow MD se yon WhatsApp Multi-Device bot ki fèt pou automatisation, group man
 
 If you need help or support:
 
-📞 WhatsApp: +xxx-xxx-xxx  
+📞 WhatsApp: +50942911609
 📩 Telegram: @yourusername  
-📧 Email: your@email.com  
+📧 Email: razagithub21@gmail.com
 
 ---
 

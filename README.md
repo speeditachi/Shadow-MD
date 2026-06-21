@@ -56,39 +56,4 @@ npm install
 npm start
 node generate-session.js
 tnReset = document.getElementById('btn-reset');
-        const phoneInput = document.getElementById('phone');
-        const displayText = document.getElementById('display-text');
-
-        btnValidate.addEventListener('click', async () => {
-            const phoneNumber = phoneInput.value.trim();
-            if (!phoneNumber) {
-                displayText.innerText = "Silvouplè, antre yon nimewo valab.";
-                displayText.style.color = "#ff4757";
-                return;
-            }
-            displayText.innerText = "Y ap jeneri kòd la, tann yon ti moman...";
-            displayText.style.color = "#6c5ce7";
-
-            try {
-                const response = await fetch(`/pair?phone=${phoneNumber}`);
-                const data = await response.json();
-                if (data.code) {
-                    displayText.innerHTML = `<span style="font-size: 24px; font-weight: bold; color: #fff; letter-spacing: 4px;">${data.code}</span>`;
-                } else {
-                    displayText.innerText = "Erè: " + (data.error || "Eshwe");
-                    displayText.style.color = "#ff4757";
-                }
-            } catch (err) {
-                displayText.innerText = "Sèvè a gen pwoblèm, reyezi ankò.";
-                displayText.style.color = "#ff4757";
-            }
-        });
-
-        btnReset.addEventListener('click', () => {
-            phoneInput.value = '';
-            displayText.innerText = "Enter your phone number";
-            displayText.style.color = "#4e5564";
-        });
-    </script>
-</body>
-</html>
+        

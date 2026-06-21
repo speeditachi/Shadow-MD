@@ -1,0 +1,30 @@
+{
+  "name": "Shadow MD Bot",
+  "description": "WhatsApp MD Bot using Baileys",
+  "repository": "https://github.com/your-username/shadow-md",
+  "logo": "",
+  "keywords": ["whatsapp", "bot", "shadow-md", "baileys"],
+  "env": {
+    "PREFIX": {
+      "description": "Bot prefix",
+      "value": "."
+    },
+    "BOT_NAME": {
+      "description": "Bot name",
+      "value": "Shadow MD"
+    },
+    "SESSION_ID": {
+      "description": "WhatsApp Session ID",
+      "value": ""
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner number",
+      "value": "509XXXXXXXX"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

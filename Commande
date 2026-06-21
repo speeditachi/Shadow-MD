@@ -1,0 +1,83 @@
+module.exports = async (sock, msg, text, config) => {
+
+    const from = msg.key.remoteJid
+
+    const prefix = config.prefix
+
+    // 🔥 MAIN MENU
+    if (text === prefix + "menu") {
+        await sock.sendMessage(from, {
+            text: `
+🤖 *SHADOW MD BOT MENU*
+
+━━━━━━━━━━━━━━━
+👥 *GROUP MENU*
+━━━━━━━━━━━━━━━
+.add
+.kick
+.promote
+.demote
+.tagall
+.mute
+.unmute
+
+━━━━━━━━━━━━━━━
+👑 *OWNER MENU*
+━━━━━━━━━━━━━━━
+.owner
+.restart
+.setpp
+.broadcast
+.leave
+
+━━━━━━━━━━━━━━━
+⚙️ *TOOLS MENU*
+━━━━━━━━━━━━━━━
+.ping
+.menu
+.info
+.runtime
+
+━━━━━━━━━━━━━━━
+💀 *BUG MENU*
+━━━━━━━━━━━━━━━
+.crash
+.freeze
+.delay
+.spam
+
+━━━━━━━━━━━━━━━
+📥 *LOAD MENU*
+━━━━━━━━━━━━━━━
+.loadcmd
+.unloadcmd
+.reload
+
+━━━━━━━━━━━━━━━
+🤖 Shadow MD Running...
+`
+        })
+    }
+
+    // 🔥 PING
+    if (text === prefix + "ping") {
+        await sock.sendMessage(from, {
+            text: "⚡ Shadow MD Online"
+        })
+    }
+
+    // 👑 OWNER INFO
+    if (text === prefix + "owner") {
+        await sock.sendMessage(from, {
+            text: "👑 Owner: Shadow Developer"
+        })
+    }
+
+    // ⚙️ INFO
+    if (text === prefix + "info") {
+        await sock.sendMessage(from, {
+            text: "🤖 Shadow MD Bot | Baileys | 24/7 Ready"
+        })
+    }
+
+}

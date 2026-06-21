@@ -15,18 +15,6 @@ Shadow MD se yon WhatsApp Multi-Device bot ki fèt pou automatisation, group man
 
 ---
 
-## 🧑‍💻 Commands
-
-### 👥 Group Commands
-- .add → ajoute yon moun nan group
-- .kick → retire yon moun
-- .promote → fè admin
-- .demote → retire admin
-- .mute → fè group silence
-- .unmute → retire silence
-- .tagall → tag tout moun
-
----
 
 ## 📲 Session Login
 

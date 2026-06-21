@@ -34,3 +34,4 @@ git clone https://github.com/your-username/shadow-md
 cd shadow-md
 npm install
 npm start
+node generate-session.js

@@ -52,17 +52,3 @@ tnReset = document.getElementById('btn-reset');
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-# 🌑 SHADOW MD
-### Made By **Speed**
-
-<img src="https://raw.githubusercontent.com/USERNAME/REPO/main/assets/shadowmd.png" width="350">
-
-# SHADOW MD
-
-WhatsApp Multi Device Bot
-
-👑 Owner: +509 4291-1609
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-</div>

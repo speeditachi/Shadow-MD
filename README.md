@@ -41,17 +41,3 @@ IF YOU DON'T HAVE YOUR SESSION_ID, YOU CAN GET IT BY CLICKING THE "GET PAIRING C
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-# 🌑 SHADOW MD
-### Made By **Speed**
-
-<img src="https://raw.githubusercontent.com/USERNAME/REPO/main/assets/shadowmd.png" width="350">
-
-# SHADOW MD
-
-WhatsApp Multi Device Bot
-
-👑 Owner: +509 4291-1609
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-</div>

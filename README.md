@@ -37,18 +37,21 @@ IF YOU DON'T HAVE YOUR SESSION_ID, YOU CAN GET IT BY CLICKING THE "GET PAIRING C
 
 ### 4. RAILWAY
 [![Deploy on Railway](https://img.shields.io/badge/Deploy_on_Railway-black?style=for-the-badge&logo=railway)](https://railway.app/template/deploy?template=https://github.com/speeditachi/Shadow-MD)
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/your-username/shadow-md
-cd shadow-md
-npm install
-npm start
-node generate-session.js
-tnReset = document.getElementById('btn-reset');
-        
-                    
-<div align="center">
+#<div align="center">
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+# 🌑 SHADOW MD
+### Made By **Speed**
+
+<img src="https://raw.githubusercontent.com/USERNAME/REPO/main/assets/shadowmd.png" width="350">
+
+# SHADOW MD
+
+WhatsApp Multi Device Bot
+
+👑 Owner: +509 4291-1609
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+</div>

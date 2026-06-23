@@ -14,10 +14,8 @@
 
 IF YOU DON'T HAVE YOUR SESSION_ID, YOU CAN GET IT BY CLICKING THE "GET PAIRING CODE" BUTTON BELOW. PASTE YOUR NUMBER WITH YOUR COUNTRY CODE (EXAMPLE: 509xxxxxxxx) TO GENERATE YOUR SESSION_ID 🛠️
 
-### 1. PAIR CODE SESSION ID (SERVER 1)
-[![Get Pairing Code](([https://shadow-md-1-p5if.onrender.com](https://shadow-md-1-p5if.onrender.com)), 
 
-### 2. PAIR CODE SESSION ID (SERVER 2)
+### . PAIR CODE SESSION ID (SERVER 1)
 [![Get Pairing Code](https://img.shields.io/badge/GET_PAIRING_CODE-green?style=for-the-badge&logo=whatsapp&logoColor=white)](https://shadow-md-1-p5if.onrender.com)
 
 ---

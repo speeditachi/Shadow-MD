@@ -41,3 +41,4 @@ IF YOU DON'T HAVE YOUR SESSION_ID, YOU CAN GET IT BY CLICKING THE "GET PAIRING C
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 <img src="https://raw.githubusercontent.com/USERNAME/REPO/main/assets/shadowmd.png">
+[https://wa.me/50942911609](https://wa.me/50942911609)

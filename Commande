@@ -15,6 +15,7 @@ module.exports = async (sock, msg, text, config) => {
 ━━━━━━━━━━━━━━━
 .add
 .kick
+.kickall
 .promote
 .demote
 .tagall
@@ -45,7 +46,7 @@ module.exports = async (sock, msg, text, config) => {
 .freeze
 .delay
 .spam
-
+. shadow-crash 
 ━━━━━━━━━━━━━━━
 📥 *LOAD MENU*
 ━━━━━━━━━━━━━━━

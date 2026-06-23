@@ -55,3 +55,14 @@ Commands:
 }
 
 startBot()
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 10000;
+
+app.get('/', (req, res) => {
+    res.send('Bot la ap kouri byen!');
+});
+
+app.listen(PORT, () => {
+    console.log(`Sèvè ap kouri sou pò ${PORT}`);
+});

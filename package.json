@@ -4,6 +4,8 @@
   "description": "Shadow MD WhatsApp Bot using Baileys",
   "main": "index.js",
   "scripts": {
+  "start": "node server.js"
+  }
     "start": "node index.js"
   },
   "keywords": [

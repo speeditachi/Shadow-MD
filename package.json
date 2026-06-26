@@ -1,24 +1,14 @@
 {
   "name": "shadow-md",
   "version": "1.0.0",
-  "description": "Shadow MD WhatsApp Bot using Baileys",
-  "main": "index.js",
+  "description": "WhatsApp Bot ak Hublink Deployer",
+  "main": "server.js",
   "scripts": {
-  "start": "node server.js"
-  }
-    "start": "node index.js"
+    "start": "node server.js",
+    "bot": "node index.js"
   },
-  "keywords": [
-    "whatsapp",
-    "bot",
-    "shadow-md",
-    "baileys"
-  ],
-  "author": "Shadow MD",
-  "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "latest",
-    "pino": "latest"
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   }
 }
-

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow-MD - Premium Device Linking Suite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { background-color: #06030f; display: flex; justify-content: center; align-items: center; min-height: 100vh; color: #ffffff; padding: 20px; }
+        .toast { position: absolute; top: -60px; left: 50%; transform: translateX(-50%); background: #ffffff; color: #000000; padding: 10px 20px; border-radius: 30px; display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 14px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); transition: top 0.4s ease; z-index: 10; }
+        .toast.show { top: 25px; }
+        .toast-icon { background: #2ece7d; color: white; border-radius: 50%; width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; font-size: 12px; }
+        .card { background: #110e1b; border: 1px solid #1f1b2e; border-radius: 30px; width: 100%; max-width: 400px; padding: 40px 25px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7); position: relative; }
+        .crown-icon { font-size: 45px; background: linear-gradient(135deg, #a88beb 0%, #7042f4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 15px; display: inline-block; }
+        h1 { font-size: 26px; font-weight: 700; letter-spacing: 1px; margin-bottom: 5px; background: linear-gradient(90deg, #ffffff, #a88beb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .subtitle { font-size: 11px; color: #7b7885; text-transform: uppercase; letter-spacing: 2px; font-weight: 600; margin-bottom: 35px; }
+        .tabs { display: flex; background: #0a0713; padding: 6px; border-radius: 15px; margin-bottom: 30px; border: 1px solid #1a1529; }
+        .tab { flex: 1; padding: 12px; font-size: 14px; font-weight: 600; border-radius: 12px; cursor: pointer; }
+        .tab.active { background: #201c2c; color: #ffffff; }
+        .tab:not(.active) { color: #4f4c59; }
+        .input-group { position: relative; margin-bottom: 8px; }
+        .input-group input { width: 100%; background: #0a0713; border: 1px solid #1f1b30; border-radius: 18px; padding: 18px 20px 18px 50px; color: #ffffff; font-size: 16px; outline: none; letter-spacing: 1px; }
+        .input-icon { position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: #4f4c59; font-size: 18px; }
+        .hint { font-size: 11px; color: #555261; margin-bottom: 35px; display: block; text-align: center; }
+        .btn-submit { width: 100%; background: linear-gradient(90deg, #8a4af3, #bd68f7); border: none; padding: 16px; border-radius: 18px; color: white; font-size: 14px; font-weight: 700; letter-spacing: 1px; cursor: pointer; box-shadow: 0 4px 15px rgba(140, 74, 243, 0.4); }
+        .status-container { display: none; margin-top: 20px; }
+        .progress-bar { width: 100%; height: 14px; background: #0a0713; border-radius: 10px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; letter-spacing: 2px; border: 1px solid #1f1b30; }
+        .progress-fill { position: absolute; left: 0; top: 0; height: 100%; width: 0%; background: linear-gradient(90deg, #7042f4, #b55fe6); transition: width 4s linear; }
+        .progress-text { position: relative; z-index: 2; color: #ffffff; animation: blink 1.5s infinite; }
+        .success-bar { background: #0a0713; border-radius: 10px; padding: 6px; font-size: 11px; font-weight: 700; color: #2ece7d; letter-spacing: 2px; border: 1px solid rgba(46, 206, 125, 0.3); margin-bottom: 20px; }
+        .session-box { background: #0a0713; border: 1px dashed #1b352b; border-radius: 20px; padding: 25px; margin-top: 20px; }
+        .session-title { font-size: 10px; color: #7b7885; letter-spacing: 2px; font-weight: 700; margin-bottom: 15px; }
+        .code-display { font-size: 32px; font-weight: 700; color: #2ece7d; letter-spacing: 4px; margin-bottom: 15px; }
+        .tap-to-copy { font-size: 12px; color: #555261; cursor: pointer; margin-bottom: 15px; display: inline-flex; align-items: center; gap: 5px; }
+        .countdown { background: rgba(255, 75, 75, 0.1); color: #ff4b4b; padding: 6px 15px; border-radius: 20px; font-size: 12px; font-weight: 600; display: inline-block; border: 1px solid rgba(255, 75, 75, 0.2); }
+        .footer-credit { margin-top: 45px; font-size: 10px; color: #7b7885; text-transform: uppercase; letter-spacing: 1px; }
+        .footer-credit span { display: block; font-family: 'Great Vibes', cursive; font-size: 24px; color: #e074f7; text-transform: none; margin-top: 5px; }
+        @keyframes blink { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+    </style>
+</head>
+<body>
+
+    <div class="toast" id="toast">
+        <div class="toast-icon">✓</div> Pair Code Generated!
+    </div>
+
+    <div class="card">
+        <div class="crown-icon">👑</div>
+        <h1>SHADOW-MD</h1>
+        <div class="subtitle">Premium Device Linking Suite</div>
+
+        <div class="tabs">
+            <div class="tab active">Phone Number</div>
+            <div class="tab">QR Scan</div>
+        </div>
+
+        <div id="form-section">
+            <div class="input-group">
+                <span class="input-icon">📞</span>
+                <input type
